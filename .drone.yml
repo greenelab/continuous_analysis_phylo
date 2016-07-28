@@ -1,0 +1,23 @@
+image: brettbj/continuous_analysis_phylo:latest
+script:
+  - cd /var/cache/drone/src/github.com/greenelab/continuous_analysis_phylo/
+  - mv data/twist.fasta twist.fasta
+  - rm -r data
+  - mkdir data
+  - cd data
+  - mv ../twist.fasta twist.fasta
+  - sh ../run_phylo.sh
+  - convert plotfile tree.png
+  - cd ..
+
+  - git config user.email "brettbj@gmail.com"
+  - git config user.name "Brett Beaulieu-Jones"
+  - git config --global push.default simple
+  - git remote set-url origin https://github.com/greenelab/continuous_analysis_phylo.git
+
+  - git checkout -b master
+  - git add *
+  - git commit -a -m "Drone Build [skip ci] [ci skip]"
+
+  - git remote set-url origin https://brettbj:$$git_publish_key@github.com/greenelab/continuous_analysis_phylo.git
+  - git push --set-upstream origin master
