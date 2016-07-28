@@ -1,0 +1,58 @@
+%!PS-Adobe-2.0
+%%Title: Phylip Tree Output
+%%DocumentFonts: (atend)
+%%Pages: 1 1
+%%BoundingBox: 0 0 612 792
+%%DocumentPaperSizes: Letter
+%%Orientation: Portrait
+%%EndComments
+/l {newpath moveto lineto stroke} def
+%%EndProlog
+%%
+%%Page: 1 1
+%%PageBoundingBox: 0 0 585 765
+%%PageFonts: (atend)
+%%BeginPageSetup
+%%PaperSize: Letter
+ 1 setlinecap 
+ 1 setlinejoin  
+    4.30 setlinewidth newpath 
+  275.75   419.53   216.87   360.64 l
+  275.75   419.53   275.75   485.81 l
+  275.75   485.81   254.59   500.69 l
+  275.75   485.81   288.72   498.77 l
+  275.75   419.53   432.07   263.22 l
+ stroke    1.43 setlinewidth 
+1 setlinecap 1 setlinejoin 
+gsave
+/Times-Roman findfont 36.116630 scalefont setfont
+134.610208 324.778943 translate 0.000000 rotate
+0 0 moveto
+(MouseTw2) show
+grestore
+gsave
+/Times-Roman findfont 36.116630 scalefont setfont
+172.332744 512.643869 translate 0.000000 rotate
+0 0 moveto
+(MouseTw1) show
+grestore
+gsave
+/Times-Roman findfont 36.116630 scalefont setfont
+202.456351 510.726965 translate 0.000000 rotate
+0 0 moveto
+(HumanTw1) show
+grestore
+gsave
+/Times-Roman findfont 36.116630 scalefont setfont
+383.908709 227.352258 translate 0.000000 rotate
+0 0 moveto
+(FlyTw) show
+grestore
+stroke     4.30 setlinewidth 
+ 1 setlinecap 1 setlinejoin 
+stroke showpage 
+
+%%PageTrailer
+%%PageFonts: Times-Roman
+%%Trailer
+%%DocumentFonts: Times-Roman
