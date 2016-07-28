@@ -1,0 +1,2603 @@
+
+DNA parsimony algorithm, version 3.69
+
+
+Data set # 1:
+
+
+One most parsimonious tree found:
+
+
+  +-----------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +-HumanTw1  
+  |  
+  +-----------------------------------FlyTw     
+
+
+requires a total of   2808.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.193037
+     1           2       0.160529
+     2      MouseTw1     0.067246
+     2      HumanTw1     0.045985
+     1      FlyTw        0.599263
+
+
+Data set # 2:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |          +---MouseTw1  
+  1----------2  
+  |          +-HumanTw1  
+  |  
+  +--------------------------------FlyTw     
+
+
+requires a total of   2799.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.214329
+     1           2       0.177487
+     2      MouseTw1     0.071074
+     2      HumanTw1     0.043739
+     1      FlyTw        0.556014
+
+
+Data set # 3:
+
+
+One most parsimonious tree found:
+
+
+  +-----------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +----------------------------------FlyTw     
+
+
+requires a total of   2819.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.207542
+     1           2       0.168691
+     2      MouseTw1     0.070488
+     2      HumanTw1     0.045811
+     1      FlyTw        0.577702
+
+
+Data set # 4:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |          +---MouseTw1  
+  1----------2  
+  |          +-HumanTw1  
+  |  
+  +--------------------------------FlyTw     
+
+
+requires a total of   2832.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.224374
+     1           2       0.176664
+     2      MouseTw1     0.075297
+     2      HumanTw1     0.044925
+     1      FlyTw        0.553910
+
+
+Data set # 5:
+
+
+One most parsimonious tree found:
+
+
+  +-------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2820.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.225623
+     1           2       0.172804
+     2      MouseTw1     0.065537
+     2      HumanTw1     0.047694
+     1      FlyTw        0.558957
+
+
+Data set # 6:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2783.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.210279
+     1           2       0.170020
+     2      MouseTw1     0.064240
+     2      HumanTw1     0.041841
+     1      FlyTw        0.570188
+
+
+Data set # 7:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2800.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.222586
+     1           2       0.167363
+     2      MouseTw1     0.061994
+     2      HumanTw1     0.041493
+     1      FlyTw        0.569587
+
+
+Data set # 8:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2821.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.211703
+     1           2       0.167742
+     2      MouseTw1     0.072877
+     2      HumanTw1     0.044783
+     1      FlyTw        0.573890
+
+
+Data set # 9:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2821.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.222159
+     1           2       0.171982
+     2      MouseTw1     0.065237
+     2      HumanTw1     0.047393
+     1      FlyTw        0.564224
+
+
+Data set # 10:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |          +--MouseTw1  
+  1----------2  
+  |          +-HumanTw1  
+  |  
+  +--------------------------------FlyTw     
+
+
+requires a total of   2774.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.219058
+     1           2       0.177297
+     2      MouseTw1     0.061124
+     2      HumanTw1     0.044799
+     1      FlyTw        0.550873
+
+
+Data set # 11:
+
+
+One most parsimonious tree found:
+
+
+  +-----------MouseTw2  
+  |  
+  |         +--MouseTw1  
+  1---------2  
+  |         +-HumanTw1  
+  |  
+  +----------------------------------FlyTw     
+
+
+requires a total of   2752.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.200187
+     1           2       0.161162
+     2      MouseTw1     0.060349
+     2      HumanTw1     0.045163
+     1      FlyTw        0.577939
+
+
+Data set # 12:
+
+
+One most parsimonious tree found:
+
+
+  +-----------MouseTw2  
+  |  
+  |          +--MouseTw1  
+  1----------2  
+  |          +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2792.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.208159
+     1           2       0.177866
+     2      MouseTw1     0.063766
+     2      HumanTw1     0.049339
+     1      FlyTw        0.560855
+
+
+Data set # 13:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2772.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.212984
+     1           2       0.170210
+     2      MouseTw1     0.063149
+     2      HumanTw1     0.043027
+     1      FlyTw        0.563022
+
+
+Data set # 14:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2822.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.215025
+     1           2       0.167110
+     2      MouseTw1     0.064556
+     2      HumanTw1     0.049750
+     1      FlyTw        0.574934
+
+
+Data set # 15:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +-HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2772.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.211703
+     1           2       0.164325
+     2      MouseTw1     0.064904
+     2      HumanTw1     0.042885
+     1      FlyTw        0.568574
+
+
+Data set # 16:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +--MouseTw1  
+  1---------2  
+  |         +-HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2740.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.213601
+     1           2       0.160656
+     2      MouseTw1     0.062373
+     2      HumanTw1     0.041493
+     1      FlyTw        0.562120
+
+
+Data set # 17:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |          +--MouseTw1  
+  1----------2  
+  |          +-HumanTw1  
+  |  
+  +----------------------------------FlyTw     
+
+
+requires a total of   2848.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.219153
+     1           2       0.176031
+     2      MouseTw1     0.059953
+     2      HumanTw1     0.046665
+     1      FlyTw        0.579442
+
+
+Data set # 18:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |          +---MouseTw1  
+  1----------2  
+  |          +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2847.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.221020
+     1           2       0.184004
+     2      MouseTw1     0.068907
+     2      HumanTw1     0.048026
+     1      FlyTw        0.558909
+
+
+Data set # 19:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |          +--MouseTw1  
+  1----------2  
+  |          +-HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2791.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.212462
+     1           2       0.175968
+     2      MouseTw1     0.057944
+     2      HumanTw1     0.048833
+     1      FlyTw        0.564398
+
+
+Data set # 20:
+
+
+One most parsimonious tree found:
+
+
+  +-----------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +-----------------------------------FlyTw     
+
+
+requires a total of   2834.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.206214
+     1           2       0.162997
+     2      MouseTw1     0.065363
+     2      HumanTw1     0.049418
+     1      FlyTw        0.591939
+
+
+Data set # 21:
+
+
+One most parsimonious tree found:
+
+
+  +-----------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +--------------------------------FlyTw     
+
+
+requires a total of   2737.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.200677
+     1           2       0.167173
+     2      MouseTw1     0.068812
+     2      HumanTw1     0.049070
+     1      FlyTw        0.553373
+
+
+Data set # 22:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |          +--MouseTw1  
+  1----------2  
+  |          +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2826.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.223915
+     1           2       0.177993
+     2      MouseTw1     0.059906
+     2      HumanTw1     0.052313
+     1      FlyTw        0.558767
+
+
+Data set # 23:
+
+
+One most parsimonious tree found:
+
+
+  +-----------MouseTw2  
+  |  
+  |        +---MouseTw1  
+  1--------2  
+  |        +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2748.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.207985
+     1           2       0.154644
+     2      MouseTw1     0.065490
+     2      HumanTw1     0.049165
+     1      FlyTw        0.565996
+
+
+Data set # 24:
+
+
+One most parsimonious tree found:
+
+
+  +-----------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +----------------------------------FlyTw     
+
+
+requires a total of   2813.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.207226
+     1           2       0.170969
+     2      MouseTw1     0.063971
+     2      HumanTw1     0.046507
+     1      FlyTw        0.579284
+
+
+Data set # 25:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +----------------------------------FlyTw     
+
+
+requires a total of   2796.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.211086
+     1           2       0.164136
+     2      MouseTw1     0.063528
+     2      HumanTw1     0.046824
+     1      FlyTw        0.575930
+
+
+Data set # 26:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2825.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.220008
+     1           2       0.169704
+     2      MouseTw1     0.068527
+     2      HumanTw1     0.048405
+     1      FlyTw        0.565869
+
+
+Data set # 27:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |          +--MouseTw1  
+  1----------2  
+  |          +-HumanTw1  
+  |  
+  +--------------------------------FlyTw     
+
+
+requires a total of   2781.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.214993
+     1           2       0.176981
+     2      MouseTw1     0.060602
+     2      HumanTw1     0.046934
+     1      FlyTw        0.556299
+
+
+Data set # 28:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |          +--MouseTw1  
+  1----------2  
+  |          +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2782.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.209077
+     1           2       0.175715
+     2      MouseTw1     0.059748
+     2      HumanTw1     0.049877
+     1      FlyTw        0.561772
+
+
+Data set # 29:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2806.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.216401
+     1           2       0.163503
+     2      MouseTw1     0.073526
+     2      HumanTw1     0.048089
+     1      FlyTw        0.563781
+
+
+Data set # 30:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2785.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.209172
+     1           2       0.163946
+     2      MouseTw1     0.066297
+     2      HumanTw1     0.049212
+     1      FlyTw        0.568701
+
+
+Data set # 31:
+
+
+One most parsimonious tree found:
+
+
+  +-----------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +-HumanTw1  
+  |  
+  +----------------------------------FlyTw     
+
+
+requires a total of   2791.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.200930
+     1           2       0.159200
+     2      MouseTw1     0.071596
+     2      HumanTw1     0.044261
+     1      FlyTw        0.583618
+
+
+Data set # 32:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |          +---MouseTw1  
+  1----------2  
+  |          +-HumanTw1  
+  |  
+  +----------------------------------FlyTw     
+
+
+requires a total of   2852.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.217160
+     1           2       0.175778
+     2      MouseTw1     0.066439
+     2      HumanTw1     0.043660
+     1      FlyTw        0.579727
+
+
+Data set # 33:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +----MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2826.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.219770
+     1           2       0.173311
+     2      MouseTw1     0.069429
+     2      HumanTw1     0.047789
+     1      FlyTw        0.562595
+
+
+Data set # 34:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +----------------------------------FlyTw     
+
+
+requires a total of   2855.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.214946
+     1           2       0.170843
+     2      MouseTw1     0.065616
+     2      HumanTw1     0.048532
+     1      FlyTw        0.583966
+
+
+Data set # 35:
+
+
+One most parsimonious tree found:
+
+
+  +-----------MouseTw2  
+  |  
+  |          +---MouseTw1  
+  1----------2  
+  |          +-HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2785.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.198573
+     1           2       0.179512
+     2      MouseTw1     0.063797
+     2      HumanTw1     0.044055
+     1      FlyTw        0.571390
+
+
+Data set # 36:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |          +---MouseTw1  
+  1----------2  
+  |          +-HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2817.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.213569
+     1           2       0.176981
+     2      MouseTw1     0.070568
+     2      HumanTw1     0.046270
+     1      FlyTw        0.562089
+
+
+Data set # 37:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +--------------------------------FlyTw     
+
+
+requires a total of   2757.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.221763
+     1           2       0.164072
+     2      MouseTw1     0.061424
+     2      HumanTw1     0.046618
+     1      FlyTw        0.552819
+
+
+Data set # 38:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2799.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.212858
+     1           2       0.167679
+     2      MouseTw1     0.072513
+     2      HumanTw1     0.045558
+     1      FlyTw        0.564034
+
+
+Data set # 39:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2820.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.211070
+     1           2       0.172298
+     2      MouseTw1     0.067815
+     2      HumanTw1     0.051110
+     1      FlyTw        0.568321
+
+
+Data set # 40:
+
+
+One most parsimonious tree found:
+
+
+  +-----------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2742.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.207669
+     1           2       0.166667
+     2      MouseTw1     0.058846
+     2      HumanTw1     0.042901
+     1      FlyTw        0.564920
+
+
+Data set # 41:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +----------------------------------FlyTw     
+
+
+requires a total of   2839.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.212430
+     1           2       0.170653
+     2      MouseTw1     0.068416
+     2      HumanTw1     0.044119
+     1      FlyTw        0.582210
+
+
+Data set # 42:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2802.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.217508
+     1           2       0.165907
+     2      MouseTw1     0.064003
+     2      HumanTw1     0.046159
+     1      FlyTw        0.570204
+
+
+Data set # 43:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |          +---MouseTw1  
+  1----------2  
+  |          +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2845.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.215009
+     1           2       0.180334
+     2      MouseTw1     0.071248
+     2      HumanTw1     0.045052
+     1      FlyTw        0.568464
+
+
+Data set # 44:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +----MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2837.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.211529
+     1           2       0.174386
+     2      MouseTw1     0.074095
+     2      HumanTw1     0.046001
+     1      FlyTw        0.571058
+
+
+Data set # 45:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +--MouseTw1  
+  1---------2  
+  |         +-HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2739.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.213095
+     1           2       0.161794
+     2      MouseTw1     0.053768
+     2      HumanTw1     0.042758
+     1      FlyTw        0.568448
+
+
+Data set # 46:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |          +---MouseTw1  
+  1----------2  
+  |          +--HumanTw1  
+  |  
+  +--------------------------------FlyTw     
+
+
+requires a total of   2795.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.215072
+     1           2       0.175019
+     2      MouseTw1     0.070046
+     2      HumanTw1     0.052582
+     1      FlyTw        0.548405
+
+
+Data set # 47:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |          +---MouseTw1  
+  1----------2  
+  |          +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2833.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.211687
+     1           2       0.177044
+     2      MouseTw1     0.071849
+     2      HumanTw1     0.050968
+     1      FlyTw        0.564003
+
+
+Data set # 48:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |          +---MouseTw1  
+  1----------2  
+  |          +--HumanTw1  
+  |  
+  +--------------------------------FlyTw     
+
+
+requires a total of   2824.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.216385
+     1           2       0.177613
+     2      MouseTw1     0.069713
+     2      HumanTw1     0.054148
+     1      FlyTw        0.554274
+
+
+Data set # 49:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2785.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.211687
+     1           2       0.170716
+     2      MouseTw1     0.065142
+     2      HumanTw1     0.041603
+     1      FlyTw        0.568179
+
+
+Data set # 50:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2832.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.218805
+     1           2       0.166540
+     2      MouseTw1     0.070362
+     2      HumanTw1     0.045305
+     1      FlyTw        0.574158
+
+
+Data set # 51:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |          +---MouseTw1  
+  1----------2  
+  |          +--HumanTw1  
+  |  
+  +--------------------------------FlyTw     
+
+
+requires a total of   2762.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.215768
+     1           2       0.187674
+     2      MouseTw1     0.058087
+     2      HumanTw1     0.042901
+     1      FlyTw        0.544166
+
+
+Data set # 52:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |          +---MouseTw1  
+  1----------2  
+  |          +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2853.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.220023
+     1           2       0.182802
+     2      MouseTw1     0.069176
+     2      HumanTw1     0.048295
+     1      FlyTw        0.562848
+
+
+Data set # 53:
+
+
+One most parsimonious tree found:
+
+
+  +-----------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2767.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.205866
+     1           2       0.164389
+     2      MouseTw1     0.063497
+     2      HumanTw1     0.051727
+     1      FlyTw        0.565015
+
+
+Data set # 54:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +-HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2819.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.219375
+     1           2       0.161352
+     2      MouseTw1     0.068780
+     2      HumanTw1     0.046381
+     1      FlyTw        0.574348
+
+
+Data set # 55:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +----MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2830.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.222934
+     1           2       0.169134
+     2      MouseTw1     0.074617
+     2      HumanTw1     0.043106
+     1      FlyTw        0.564620
+
+
+Data set # 56:
+
+
+One most parsimonious tree found:
+
+
+  +-------------MouseTw2  
+  |  
+  |          +---MouseTw1  
+  1----------2  
+  |          +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2868.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.226288
+     1           2       0.188750
+     2      MouseTw1     0.062025
+     2      HumanTw1     0.052534
+     1      FlyTw        0.559241
+
+
+Data set # 57:
+
+
+One most parsimonious tree found:
+
+
+  +-------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2833.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.226889
+     1           2       0.169514
+     2      MouseTw1     0.065537
+     2      HumanTw1     0.052629
+     1      FlyTw        0.560981
+
+
+Data set # 58:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |          +---MouseTw1  
+  1----------2  
+  |          +--HumanTw1  
+  |  
+  +--------------------------------FlyTw     
+
+
+requires a total of   2829.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.221099
+     1           2       0.175209
+     2      MouseTw1     0.068100
+     2      HumanTw1     0.051395
+     1      FlyTw        0.558229
+
+
+Data set # 59:
+
+
+One most parsimonious tree found:
+
+
+  +-----------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +----------------------------------FlyTw     
+
+
+requires a total of   2793.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.203145
+     1           2       0.173753
+     2      MouseTw1     0.053942
+     2      HumanTw1     0.046349
+     1      FlyTw        0.583175
+
+
+Data set # 60:
+
+
+One most parsimonious tree found:
+
+
+  +-------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2820.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.225481
+     1           2       0.174260
+     2      MouseTw1     0.054512
+     2      HumanTw1     0.046539
+     1      FlyTw        0.569824
+
+
+Data set # 61:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +--MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +----------------------------------FlyTw     
+
+
+requires a total of   2823.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.214977
+     1           2       0.163756
+     2      MouseTw1     0.060586
+     2      HumanTw1     0.045400
+     1      FlyTw        0.587035
+
+
+Data set # 62:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |        +---MouseTw1  
+  1--------2  
+  |        +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2783.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.217840
+     1           2       0.155847
+     2      MouseTw1     0.061298
+     2      HumanTw1     0.052186
+     1      FlyTw        0.569397
+
+
+Data set # 63:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2808.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.210010
+     1           2       0.162111
+     2      MouseTw1     0.068654
+     2      HumanTw1     0.053467
+     1      FlyTw        0.571817
+
+
+Data set # 64:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |          +---MouseTw1  
+  1----------2  
+  |          +--HumanTw1  
+  |  
+  +--------------------------------FlyTw     
+
+
+requires a total of   2818.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.212810
+     1           2       0.190395
+     2      MouseTw1     0.063860
+     2      HumanTw1     0.045258
+     1      FlyTw        0.557533
+
+
+Data set # 65:
+
+
+One most parsimonious tree found:
+
+
+  +-----------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +----------------------------------FlyTw     
+
+
+requires a total of   2809.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.206925
+     1           2       0.169261
+     2      MouseTw1     0.061519
+     2      HumanTw1     0.046333
+     1      FlyTw        0.582400
+
+
+Data set # 66:
+
+
+One most parsimonious tree found:
+
+
+  +-----------MouseTw2  
+  |  
+  |         +----MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +----------------------------------FlyTw     
+
+
+requires a total of   2824.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.205185
+     1           2       0.171792
+     2      MouseTw1     0.070536
+     2      HumanTw1     0.047377
+     1      FlyTw        0.577243
+
+
+Data set # 67:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |          +--MouseTw1  
+  1----------2  
+  |          +-HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2801.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.208840
+     1           2       0.177550
+     2      MouseTw1     0.063813
+     2      HumanTw1     0.043312
+     1      FlyTw        0.569887
+
+
+Data set # 68:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +----------------------------------FlyTw     
+
+
+requires a total of   2805.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.209963
+     1           2       0.166350
+     2      MouseTw1     0.063164
+     2      HumanTw1     0.048358
+     1      FlyTw        0.577085
+
+
+Data set # 69:
+
+
+One most parsimonious tree found:
+
+
+  +-------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2862.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.227696
+     1           2       0.173753
+     2      MouseTw1     0.066217
+     2      HumanTw1     0.044577
+     1      FlyTw        0.574317
+
+
+Data set # 70:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +--------------------------------FlyTw     
+
+
+requires a total of   2773.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.215151
+     1           2       0.166730
+     2      MouseTw1     0.066708
+     2      HumanTw1     0.047346
+     1      FlyTw        0.556837
+
+
+Data set # 71:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |          +---MouseTw1  
+  1----------2  
+  |          +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2806.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.215230
+     1           2       0.178689
+     2      MouseTw1     0.065015
+     2      HumanTw1     0.046412
+     1      FlyTw        0.559953
+
+
+Data set # 72:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2803.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.214661
+     1           2       0.169830
+     2      MouseTw1     0.065078
+     2      HumanTw1     0.049892
+     1      FlyTw        0.564699
+
+
+Data set # 73:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2770.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.216496
+     1           2       0.165022
+     2      MouseTw1     0.061851
+     2      HumanTw1     0.048943
+     1      FlyTw        0.559320
+
+
+Data set # 74:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |          +---MouseTw1  
+  1----------2  
+  |          +-HumanTw1  
+  |  
+  +--------------------------------FlyTw     
+
+
+requires a total of   2775.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.214898
+     1           2       0.175335
+     2      MouseTw1     0.069872
+     2      HumanTw1     0.044815
+     1      FlyTw        0.548611
+
+
+Data set # 75:
+
+
+One most parsimonious tree found:
+
+
+  +-----------MouseTw2  
+  |  
+  |          +---MouseTw1  
+  1----------2  
+  |          +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2816.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.201784
+     1           2       0.176031
+     2      MouseTw1     0.068780
+     2      HumanTw1     0.050177
+     1      FlyTw        0.572323
+
+
+Data set # 76:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2788.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.212604
+     1           2       0.171096
+     2      MouseTw1     0.059479
+     2      HumanTw1     0.043913
+     1      FlyTw        0.571374
+
+
+Data set # 77:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2777.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.211893
+     1           2       0.167363
+     2      MouseTw1     0.066233
+     2      HumanTw1     0.045352
+     1      FlyTw        0.563449
+
+
+Data set # 78:
+
+
+One most parsimonious tree found:
+
+
+  +-----------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2784.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.207542
+     1           2       0.162870
+     2      MouseTw1     0.063149
+     2      HumanTw1     0.050240
+     1      FlyTw        0.573146
+
+
+Data set # 79:
+
+
+One most parsimonious tree found:
+
+
+  +-------------MouseTw2  
+  |  
+  |         +--MouseTw1  
+  1---------2  
+  |         +-HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2790.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.228186
+     1           2       0.161794
+     2      MouseTw1     0.061266
+     2      HumanTw1     0.043423
+     1      FlyTw        0.564556
+
+
+Data set # 80:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |          +---MouseTw1  
+  1----------2  
+  |          +-HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2799.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.210311
+     1           2       0.177234
+     2      MouseTw1     0.067435
+     2      HumanTw1     0.047314
+     1      FlyTw        0.560349
+
+
+Data set # 81:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |          +---MouseTw1  
+  1----------2  
+  |          +-HumanTw1  
+  |  
+  +----------------------------------FlyTw     
+
+
+requires a total of   2869.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.217572
+     1           2       0.176284
+     2      MouseTw1     0.072039
+     2      HumanTw1     0.038629
+     1      FlyTw        0.584694
+
+
+Data set # 82:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +----------------------------------FlyTw     
+
+
+requires a total of   2829.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.217477
+     1           2       0.166034
+     2      MouseTw1     0.065869
+     2      HumanTw1     0.049165
+     1      FlyTw        0.575487
+
+
+Data set # 83:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |          +---MouseTw1  
+  1----------2  
+  |          +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2817.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.214329
+     1           2       0.177613
+     2      MouseTw1     0.064746
+     2      HumanTw1     0.051458
+     1      FlyTw        0.561329
+
+
+Data set # 84:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +-HumanTw1  
+  |  
+  +----------------------------------FlyTw     
+
+
+requires a total of   2834.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.222396
+     1           2       0.163313
+     2      MouseTw1     0.065347
+     2      HumanTw1     0.044467
+     1      FlyTw        0.580407
+
+
+Data set # 85:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +----------------------------------FlyTw     
+
+
+requires a total of   2804.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.209409
+     1           2       0.170969
+     2      MouseTw1     0.059320
+     2      HumanTw1     0.038440
+     1      FlyTw        0.586402
+
+
+Data set # 86:
+
+
+One most parsimonious tree found:
+
+
+  +-----------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2749.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.196833
+     1           2       0.169387
+     2      MouseTw1     0.063576
+     2      HumanTw1     0.042315
+     1      FlyTw        0.571548
+
+
+Data set # 87:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2831.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.223472
+     1           2       0.162933
+     2      MouseTw1     0.071105
+     2      HumanTw1     0.048326
+     1      FlyTw        0.568954
+
+
+Data set # 88:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +----MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2823.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.218489
+     1           2       0.171096
+     2      MouseTw1     0.074095
+     2      HumanTw1     0.047899
+     1      FlyTw        0.560175
+
+
+Data set # 89:
+
+
+One most parsimonious tree found:
+
+
+  +-----------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2804.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.205312
+     1           2       0.166603
+     2      MouseTw1     0.066360
+     2      HumanTw1     0.051933
+     1      FlyTw        0.574332
+
+
+Data set # 90:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +----MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2820.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.209630
+     1           2       0.169324
+     2      MouseTw1     0.074728
+     2      HumanTw1     0.052329
+     1      FlyTw        0.564604
+
+
+Data set # 91:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2790.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.217635
+     1           2       0.173121
+     2      MouseTw1     0.059700
+     2      HumanTw1     0.044514
+     1      FlyTw        0.564256
+
+
+Data set # 92:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +--------------------------------FlyTw     
+
+
+requires a total of   2801.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.221447
+     1           2       0.169641
+     2      MouseTw1     0.071865
+     2      HumanTw1     0.046808
+     1      FlyTw        0.553641
+
+
+Data set # 93:
+
+
+One most parsimonious tree found:
+
+
+  +-----------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +----------------------------------FlyTw     
+
+
+requires a total of   2813.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.203287
+     1           2       0.166350
+     2      MouseTw1     0.065094
+     2      HumanTw1     0.048010
+     1      FlyTw        0.585216
+
+
+Data set # 94:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +----MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2844.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.222380
+     1           2       0.173374
+     2      MouseTw1     0.068495
+     2      HumanTw1     0.047615
+     1      FlyTw        0.567863
+
+
+Data set # 95:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +----MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +----------------------------------FlyTw     
+
+
+requires a total of   2867.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.218283
+     1           2       0.171286
+     2      MouseTw1     0.072877
+     2      HumanTw1     0.048579
+     1      FlyTw        0.577433
+
+
+Data set # 96:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2831.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.221194
+     1           2       0.164199
+     2      MouseTw1     0.067815
+     2      HumanTw1     0.056805
+     1      FlyTw        0.564778
+
+
+Data set # 97:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2812.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.220957
+     1           2       0.166287
+     2      MouseTw1     0.068717
+     2      HumanTw1     0.042901
+     1      FlyTw        0.568717
+
+
+Data set # 98:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +---HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2809.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.214060
+     1           2       0.166540
+     2      MouseTw1     0.062579
+     2      HumanTw1     0.059162
+     1      FlyTw        0.564098
+
+
+Data set # 99:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2785.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.209061
+     1           2       0.165022
+     2      MouseTw1     0.064161
+     2      HumanTw1     0.045558
+     1      FlyTw        0.573526
+
+
+Data set # 100:
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +----MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +----------------------------------FlyTw     
+
+
+requires a total of   2853.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.214851
+     1           2       0.170590
+     2      MouseTw1     0.071343
+     2      HumanTw1     0.045906
+     1      FlyTw        0.580454
+

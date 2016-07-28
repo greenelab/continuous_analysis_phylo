@@ -1,0 +1,26 @@
+
+DNA parsimony algorithm, version 3.69
+
+
+One most parsimonious tree found:
+
+
+  +------------MouseTw2  
+  |  
+  |         +---MouseTw1  
+  1---------2  
+  |         +--HumanTw1  
+  |  
+  +---------------------------------FlyTw     
+
+
+requires a total of   2806.000
+
+  between      and       length
+  -------      ---       ------
+     1      MouseTw2     0.213870
+     1           2       0.170210
+     2      MouseTw1     0.066439
+     2      HumanTw1     0.047077
+     1      FlyTw        0.567704
+
