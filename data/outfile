@@ -4,16 +4,18 @@ Consensus tree program, version 3.69
 Species in order: 
 
   1. MouseTw2
-  2. MouseTw1
-  3. HumanTw1
-  4. FlyTw
+  2. HumanTw2
+  3. MouseTw1
+  4. HumanTw1
+  5. FlyTw
 
 
 Sets included in the consensus tree
 
 Set (species in order)     How many times out of  100.00
 
-.**.                       100.00
+..***                      100.00
+..**.                      100.00
 
 
 Sets NOT included in consensus tree: NONE
@@ -27,13 +29,15 @@ of times the partition of the species into the two sets
 which are separated by that branch occurred
 among the trees, out of 100.00 trees
 
-                  +-------MouseTw1
-          +-100.0-|
-  +-------|       +-------HumanTw1
-  |       |
-  |       +---------------FlyTw
+          +-----------------------HumanTw2
+          |
+  +-------|               +-------MouseTw1
+  |       |       +-100.0-|
+  |       +-100.0-|       +-------HumanTw1
+  |               |
+  |               +---------------FlyTw
   |
-  +-----------------------MouseTw2
+  +-------------------------------MouseTw2
 
 
   remember: this is an unrooted tree!

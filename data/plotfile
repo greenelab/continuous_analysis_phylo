@@ -16,39 +16,47 @@
 %%PaperSize: Letter
  1 setlinecap 
  1 setlinejoin  
-    4.30 setlinewidth newpath 
-  275.75   419.53   216.87   360.64 l
-  275.75   419.53   275.75   485.81 l
-  275.75   485.81   254.59   500.69 l
-  275.75   485.81   288.72   498.77 l
-  275.75   419.53   432.07   263.22 l
- stroke    1.43 setlinewidth 
+    3.78 setlinewidth newpath 
+  308.25   433.69   238.17   410.92 l
+  238.17   410.92   206.28   374.20 l
+  238.17   410.92   205.50   441.43 l
+  308.25   433.69   352.33   494.37 l
+  352.33   494.37   344.20   516.57 l
+  352.33   494.37   374.90   502.76 l
+  308.25   433.69   447.54   241.97 l
+ stroke    1.26 setlinewidth 
 1 setlinecap 1 setlinejoin 
 gsave
-/Times-Roman findfont 36.116630 scalefont setfont
-134.610208 324.778943 translate 0.000000 rotate
+/Times-Roman findfont 31.704190 scalefont setfont
+134.076782 342.718400 translate 0.000000 rotate
 0 0 moveto
 (MouseTw2) show
 grestore
 gsave
-/Times-Roman findfont 36.116630 scalefont setfont
-172.332744 512.643869 translate 0.000000 rotate
+/Times-Roman findfont 31.704190 scalefont setfont
+129.772950 451.926370 translate 0.000000 rotate
+0 0 moveto
+(HumanTw2) show
+grestore
+gsave
+/Times-Roman findfont 31.704190 scalefont setfont
+271.997203 527.061506 translate 0.000000 rotate
 0 0 moveto
 (MouseTw1) show
 grestore
 gsave
-/Times-Roman findfont 36.116630 scalefont setfont
-202.456351 510.726965 translate 0.000000 rotate
+/Times-Roman findfont 31.704190 scalefont setfont
+299.171185 513.249297 translate 0.000000 rotate
 0 0 moveto
 (HumanTw1) show
 grestore
 gsave
-/Times-Roman findfont 36.116630 scalefont setfont
-383.908709 227.352258 translate 0.000000 rotate
+/Times-Roman findfont 31.704190 scalefont setfont
+405.263121 210.488388 translate 0.000000 rotate
 0 0 moveto
 (FlyTw) show
 grestore
-stroke     4.30 setlinewidth 
+stroke     3.78 setlinewidth 
  1 setlinecap 1 setlinejoin 
 stroke showpage 
 

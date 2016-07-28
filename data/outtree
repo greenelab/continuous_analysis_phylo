@@ -1,1 +1,2 @@
-(((MouseTw1:100.0,HumanTw1:100.0):100.0,FlyTw:100.0):100.0,MouseTw2:100.0);
+((HumanTw2:100.0,((MouseTw1:100.0,HumanTw1:100.0):100.0,FlyTw:100.0):100.0):100.0,
+MouseTw2:100.0);
