@@ -15,7 +15,7 @@ In this example we use several tools to build phylogenies from alignments:
 
 ## Sample Results
 
-The Continuous Analysis process generates several useful artifacts, two of which are (the full experiment is described below):
+The full analysis is described below, here we show two of the useful artifacts generated through Continuous Analysis:
 
 1. Change logs/synchronization between code and figures:
 [Live Version](https://github.com/greenelab/continuous_analysis_phylo/commit/518fc9c446e7e1feb0f08e753a945e0b10adcdec#diff-81f3f2f12d4403ba083a558b76a9d056)
