@@ -1,0 +1,2445 @@
+$ git clone --depth=50 --recursive --branch=staging git://github.com/greenelab/continuous_analysis_phylo.git /var/cache/drone/src/github.com/greenelab/continuous_analysis_phylo
+
+Cloning into '/var/cache/drone/src/github.com/greenelab/continuous_analysis_phylo'...
+
+$ git checkout -qf 9c9d07f2e9bbbedd5d3fe81c0f6c92acf48924d3
+Output written to file "outfile"$ cd /var/cache/drone/src/github.com/greenelab/continuous_analysis_phylo/
+
+$ mv data/twist.fasta twist.fasta
+
+$ rm -r dataTree also written onto file "outtree"
+
+$ mkdir data
+$ cd data
+
+Data set # 79:$ mv ../twist.fasta twist.fasta
+
+$ sh ../run_phylo.sh
+
+
+Adding species:nseq =  5
+
+   1. MouseTw2  distance =  ktuples
+
+iterate =  0
+cycle =  2
+   2. HumanTw1  nthread = 0
+
+generating 200PAM scoring matrix for nucleotides ... done   3. MouseTw1  
+
+done
+done
+   4. FlyTw     scoremtx = -1
+
+Gap Penalty = -1.53, +0.00, +0.00
+   5. HumanTw2  
+
+tuplesize = 6, dorp = d
+
+
+
+Making a distance matrix ..
+Doing global rearrangements on all trees tied for best
+    1 / 5
+
+  !---------!done.
+
+
+   .Constructing a UPGMA tree ... .
+
+    0 / 5.
+done..
+.
+.Progressive alignment ... 
+.
+STEP     1 / 4 f.
+STEP     2 / 4 f.
+STEP     3 / 4 f
+STEP     4 / 4 f
+
+   .done.
+.
+.disttbfast (nuc) Version 7.123b alg=A, model=DNA200 (2),  1.530 ( 4.590), -0.000 (-0.000).
+0 thread(s).
+.nthread = 0
+.blosum 62 / kimura 200.
+.generating 200PAM scoring matrix for nucleotides ... done
+
+done
+
+doneCollapsing best trees
+scoremtx = -1
+
+.Gap Penalty = -1.53, +0.00, +0.00
+.Making a distance matrix .. .
+.
+    0 / 4.
+done..
+.
+Constructing a UPGMA tree ... 
+
+    0 / 5
+
+   .done.
+.
+.Progressive alignment ... .
+.
+STEP     1 /4 f
+STEP     2 /4 .f
+STEP     3 /4 .f
+STEP     4 /4 .f.
+done.
+
+tbfast (nuc) Version 7.123b alg=A, model=DNA200 (2),  1.530 ( 4.590), -0.000 (-0.000)
+
+0 thread(s)
+Collapsing best trees
+
+   .
+Strategy:
+
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+Output written to file "outfile"
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+Tree also written onto file "outtree"
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+
+To disable this change, add the --legacygappenalty option.Data set # 84:
+
+
+Read and write (return) sequences
+
+[2J[H[2J[HAdding species:
+DNA parsimony algorithm, version 3.69
+
+   1. MouseTw2  
+Setting for this run:
+
+  U                 Search for best tree?  Yes
+  S                        Search option?  More thorough search   2. MouseTw1  
+  V              Number of trees to save?  10000
+
+  J   Randomize input order of sequences?  No. Use input order
+  O                        Outgroup root?  No, use as outgroup species  1   3. HumanTw2  
+  T              Use Threshold parsimony?  No, use ordinary parsimony
+
+  N           Use Transversion parsimony?  No, count all steps
+  W                       Sites weighted?  No   4. FlyTw     
+  M           Analyze multiple data sets?  No
+
+  I          Input sequences interleaved?  Yes
+  0   Terminal type (IBM PC, ANSI, none)?  ANSI   5. HumanTw1  
+  1    Print out the data at start of run  No
+
+  2  Print indications of progress of run  Yes
+  3                        Print out tree  Yes
+  4          Print out steps in each site  No
+
+  5  Print sequences at all nodes of tree  NoDoing global rearrangements on all trees tied for best
+  6       Write out trees onto tree file?  Yes
+
+  !---------!
+  Y to accept these or type the letter for one to change
+
+   .Adding species:
+.   1. FlyTw     
+.   2. HumanTw1  .
+.   3. MouseTw1  
+.   4. HumanTw2  .
+.   5. MouseTw2  
+.
+Doing global rearrangements on all trees tied for best
+
+  !---------!   .
+   ..............
+.   ........
+...
+
+
+Collapsing best treesCollapsing best trees
+
+   .   .
+
+Output written to file "outfile"
+
+
+Tree also written onto file "outtree"
+
+Output written to file "outfile"
+Done.
+
+
+
+[2J[HDRAWTREE from PHYLIP version 3.69
+Tree also written onto file "outtree"Reading tree ... 
+
+Tree has been read.
+Loading the font ... 
+
+Font loaded.
+Data set # 85:
+
+Unrooted tree plotting program version 3.69
+
+
+Here are the settings: 
+Adding species:
+
+ 0  Screen type (IBM PC, ANSI)?  ANSI
+   1. MouseTw1   P       Final plotting device:  Postscript printer
+
+ V           Previewing device:  X Windows display
+ B          Use branch lengths:  Yes
+   2. HumanTw2   L             Angle of labels:  branch points to Middle of label
+
+ R            Rotation of tree:  90.0
+ I     Iterate to improve tree:  Equal-Daylight algorithm
+   3. MouseTw2   D  Try to avoid label overlap?  No
+
+ S      Scale of branch length:  Automatically rescaled
+ C   Relative character height:  0.3333
+   4. FlyTw      F                        Font:  Times-Roman
+
+ M          Horizontal margins:  1.65 cm
+ M            Vertical margins:  2.16 cm
+   5. HumanTw1   #           Page size submenu:  one page per tree
+
+
+ Y to accept these or type the letter for one to change
+[2J[H
+
+Which type of screen will it be previewed on?Doing global rearrangements on all trees tied for best
+
+
+   type:       to choose one compatible with:  !---------!
+
+
+        N         will not be previewed   .
+        X         X Windows display.
+        K         TeKtronix 4010 graphics terminal.
+        D         DEC ReGIS graphics (VT240 terminal).
+        U         other: one you have inserted code for.
+ Choose one: .
+.
+.
+.
+[2J[H
+
+Unrooted tree plotting program version 3.69
+   .
+.Here are the settings: 
+.
+. 0  Screen type (IBM PC, ANSI)?  ANSI
+. P       Final plotting device:  Postscript printer
+. V           Previewing device:  (none)
+. B          Use branch lengths:  Yes
+. L             Angle of labels:  branch points to Middle of label
+. R            Rotation of tree:  90.0
+
+ I     Iterate to improve tree:  Equal-Daylight algorithm
+ D  Try to avoid label overlap?  No
+
+ S      Scale of branch length:  Automatically rescaled
+Collapsing best trees C   Relative character height:  0.3333
+
+ F                        Font:  Times-Roman
+   . M          Horizontal margins:  1.65 cm
+ M            Vertical margins:  2.16 cm
+
+ #           Page size submenu:  one page per tree
+
+
+ Y to accept these or type the letter for one to change
+Output written to file "outfile"
+
+Writing plot file ...
+
+
+Plot written to file "plotfile"Tree also written onto file "outtree"
+
+
+Done.
+
+
+Data set # 86:[2J[H[2J[H
+
+Bootstrapping algorithm, version 3.69
+
+
+Settings for this run:Adding species:
+  D      Sequence, Morph, Rest., Gene Freqs?  Molecular sequences
+
+  J  Bootstrap, Jackknife, Permute, Rewrite?  Bootstrap   1. HumanTw2  
+  %    Regular or altered sampling fraction?  regular
+
+  B      Block size for block-bootstrapping?  1 (regular bootstrap)
+  R                     How many replicates?  100   2. MouseTw2  
+  W              Read weights of characters?  No
+
+  C                Read categories of sites?  No
+  S     Write out data sets or just weights?  Data sets   3. HumanTw1  
+  I             Input sequences interleaved?  Yes
+
+  0      Terminal type (IBM PC, ANSI, none)?  ANSI
+  1       Print out the data at start of run  No   4. MouseTw1  
+  2     Print indications of progress of run  Yes
+
+
+  Y to accept these or type the letter for one to change   5. FlyTw     
+
+
+Random number seed (must be odd)?
+
+
+completed replicate number   10Doing global rearrangements on all trees tied for best
+completed replicate number   20
+
+completed replicate number   30  !---------!
+completed replicate number   40
+
+completed replicate number   50   .
+completed replicate number   60.
+completed replicate number   70.
+completed replicate number   80.
+completed replicate number   90.
+completed replicate number  100.
+.
+Output written to file "outfile".
+.
+Done.
+
+
+   .[2J[H[2J[H
+.DNA parsimony algorithm, version 3.69
+.
+.Setting for this run:
+.  U                 Search for best tree?  Yes
+.  S                        Search option?  More thorough search
+.  V              Number of trees to save?  10000
+.  J   Randomize input order of sequences?  No. Use input order
+.  O                        Outgroup root?  No, use as outgroup species  1
+
+  T              Use Threshold parsimony?  No, use ordinary parsimony
+  N           Use Transversion parsimony?  No, count all steps
+
+  W                       Sites weighted?  No
+Collapsing best trees  M           Analyze multiple data sets?  No
+
+  I          Input sequences interleaved?  Yes
+   .  0   Terminal type (IBM PC, ANSI, none)?  ANSI
+  1    Print out the data at start of run  No
+
+  2  Print indications of progress of run  Yes
+  3                        Print out tree  Yes
+
+  4          Print out steps in each site  No
+Output written to file "outfile"  5  Print sequences at all nodes of tree  No
+
+  6       Write out trees onto tree file?  Yes
+
+
+  Y to accept these or type the letter for one to change
+Tree also written onto file "outtree"Multiple data sets or multiple weights? (type D or W)
+
+How many data sets?
+
+
+Random number seed (must be odd)?Data set # 87:
+Number of times to jumble?
+
+[2J[H
+DNA parsimony algorithm, version 3.69
+
+Adding species:
+Setting for this run:
+
+  U                 Search for best tree?  Yes   1. HumanTw1  
+  S                        Search option?  More thorough search
+
+  V              Number of trees to save?  10000
+  J   Randomize input order of sequences?  Yes (seed =      55,  1 times)   2. FlyTw     
+  O                        Outgroup root?  No, use as outgroup species  1
+
+  T              Use Threshold parsimony?  No, use ordinary parsimony
+  N           Use Transversion parsimony?  No, count all steps   3. MouseTw1  
+  W                       Sites weighted?  No
+
+  M           Analyze multiple data sets?  Yes, 100 data sets
+  I          Input sequences interleaved?  Yes   4. HumanTw2  
+  0   Terminal type (IBM PC, ANSI, none)?  ANSI
+
+  1    Print out the data at start of run  No
+  2  Print indications of progress of run  Yes   5. MouseTw2  
+  3                        Print out tree  Yes
+
+  4          Print out steps in each site  No
+  5  Print sequences at all nodes of tree  No
+  6       Write out trees onto tree file?  Yes
+
+Doing global rearrangements on all trees tied for best
+  Y to accept these or type the letter for one to change
+
+  !---------!
+
+Data set # 1:
+   .
+.Adding species:
+.   1. HumanTw2  
+.   2. MouseTw1  .
+.   3. HumanTw1  
+.   4. MouseTw2  .
+.   5. FlyTw     
+
+
+Doing global rearrangements on all trees tied for best   .
+  !---------!.
+   ..............
+.   .....
+....
+.
+Collapsing best trees
+
+Collapsing best trees
+   .   .
+
+
+Output written to file "outfile"
+
+
+Tree also written onto file "outtree"Output written to file "outfile"
+
+
+Data set # 2:
+
+
+Adding species:Tree also written onto file "outtree"
+   1. MouseTw2  
+
+   2. MouseTw1  
+
+   3. HumanTw1  Data set # 88:
+
+   4. HumanTw2  
+   5. FlyTw     
+
+Adding species:
+
+Doing global rearrangements on all trees tied for best
+   1. MouseTw2    !---------!
+
+   ....   2. FlyTw     ..
+...   3. HumanTw2  
+   .
+....   4. MouseTw1  ..
+..
+   5. HumanTw1  
+Collapsing best trees
+
+   .Collapsing best trees
+   .
+
+Doing global rearrangements on all trees tied for best
+Output written to file "outfile"
+
+  !---------!
+Tree also written onto file "outtree"
+
+   .
+Data set # 5:.
+.
+Adding species:.
+   1. FlyTw     .
+.   2. HumanTw1  
+.   3. MouseTw2  .
+.   4. HumanTw2  
+   5. MouseTw1  
+
+   .
+.Doing global rearrangements on all trees tied for best
+.  !---------!
+.   ..............
+   .
+....
+..Collapsing best trees..
+
+   .
+Collapsing best trees
+   .
+
+
+
+Output written to file "outfile"
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+
+Data set # 6:
+Tree also written onto file "outtree"
+
+Adding species:
+   1. MouseTw1  
+
+   2. HumanTw1  Data set # 89:
+
+   3. HumanTw2  
+   4. FlyTw     
+
+Adding species:   5. MouseTw2  
+
+   1. FlyTw     
+Doing global rearrangements on all trees tied for best
+
+  !---------!
+   .   2. MouseTw2  ..
+....   3. MouseTw1  ..
+
+   ..   4. HumanTw2  ..
+....   5. HumanTw1  .
+
+
+Collapsing best trees
+   .
+
+
+Doing global rearrangements on all trees tied for bestOutput written to file "outfile"
+
+
+  !---------!Tree also written onto file "outtree"
+
+
+   .Data set # 7:
+.
+.Adding species:
+.   1. FlyTw     
+.   2. HumanTw2  .
+.   3. MouseTw1  
+.   4. HumanTw1  .
+   5. MouseTw2  
+
+   .
+Doing global rearrangements on all trees tied for best.
+  !---------!.
+   ..............
+.   ..
+....
+..Collapsing best trees.
+
+
+   .Collapsing best trees
+   .
+
+
+Output written to file "outfile"
+
+Output written to file "outfile"
+Tree also written onto file "outtree"
+
+
+Data set # 8:
+
+Tree also written onto file "outtree"
+Adding species:
+
+   1. MouseTw2  
+
+   2. HumanTw2  
+Data set # 90:   3. HumanTw1  
+
+   4. FlyTw     
+
+   5. MouseTw1  Adding species:
+
+
+   1. MouseTw1  Doing global rearrangements on all trees tied for best
+
+  !---------!
+   ..   2. HumanTw1  .
+
+
+Output written to file "outfile"   3. MouseTw2  
+
+
+Tree also written onto file "outtree"
+   4. FlyTw     
+Data set # 3:
+
+
+Adding species:   5. HumanTw2  
+   1. FlyTw     
+
+   2. HumanTw2  
+   3. MouseTw2  
+
+Doing global rearrangements on all trees tied for best   4. HumanTw1  
+
+   5. MouseTw1    !---------!
+
+
+   .Doing global rearrangements on all trees tied for best
+.  !---------!
+.   ..............
+   ......
+..   ....
+.
+Collapsing best trees.
+   ..
+.
+.Output written to file "outfile"
+.
+.Tree also written onto file "outtree"
+
+
+Data set # 4:
+
+
+Collapsing best treesAdding species:
+
+   1. HumanTw1  
+   .   2. HumanTw2  
+
+   3. MouseTw1  
+   4. MouseTw2  
+
+Output written to file "outfile"   5. FlyTw     
+
+
+Doing global rearrangements on all trees tied for best
+
+  !---------!Tree also written onto file "outtree"
+   .
+....
+..Data set # 91:..
+
+   ..
+..Adding species:..
+..   1. FlyTw     .
+
+
+.   2. MouseTw1  ..
+...   3. HumanTw2  
+   .
+....   4. MouseTw2  ..
+..
+   5. HumanTw1  
+Collapsing best trees
+
+   .
+
+
+Output written to file "outfile"
+Doing global rearrangements on all trees tied for best
+
+Tree also written onto file "outtree"
+  !---------!
+
+Data set # 9:
+   .
+.Adding species:
+.   1. FlyTw     
+.   2. MouseTw2  .
+.   3. HumanTw2  
+.   4. MouseTw1  .
+.   5. HumanTw1  
+
+
+Doing global rearrangements on all trees tied for best   .
+  !---------!.
+   ..............
+.   .....
+....
+.
+Collapsing best trees
+
+Collapsing best trees
+   .   .
+
+
+Output written to file "outfile"
+
+
+Tree also written onto file "outtree"Output written to file "outfile"
+
+
+Data set # 10:
+
+
+Adding species:Tree also written onto file "outtree"
+   1. FlyTw     
+
+   2. HumanTw2  
+
+   3. MouseTw2  Data set # 92:
+
+   4. HumanTw1  
+   5. MouseTw1  
+
+Adding species:
+
+Doing global rearrangements on all trees tied for best
+   1. HumanTw1    !---------!
+
+   ....   2. HumanTw2  ..
+...   3. FlyTw     
+   .
+....   4. MouseTw2  ..
+..
+   5. MouseTw1  
+Collapsing best trees
+
+   .
+
+
+Output written to file "outfile"
+Doing global rearrangements on all trees tied for best
+
+Tree also written onto file "outtree"
+  !---------!
+
+Data set # 11:
+   .
+.Adding species:
+.   1. HumanTw1  
+.   2. FlyTw     .
+.   3. MouseTw1  
+.   4. MouseTw2  .
+.   5. HumanTw2  
+
+
+Doing global rearrangements on all trees tied for best   .
+  !---------!.
+   ..............
+.   .....
+....
+.
+Collapsing best trees
+
+Collapsing best trees
+   .   .
+
+
+Output written to file "outfile"
+
+
+Tree also written onto file "outtree"Output written to file "outfile"
+
+
+Data set # 12:
+
+
+Adding species:Tree also written onto file "outtree"
+   1. MouseTw1  
+
+   2. FlyTw     
+
+   3. MouseTw2  Data set # 93:
+
+   4. HumanTw2  
+   5. HumanTw1  
+
+Adding species:
+
+Doing global rearrangements on all trees tied for best
+   1. FlyTw       !---------!
+
+   ....   2. MouseTw1  ..
+...   3. MouseTw2  
+   .
+....   4. HumanTw1  ..
+..
+   5. HumanTw2  
+Collapsing best trees
+
+   .
+
+
+Output written to file "outfile"
+Doing global rearrangements on all trees tied for best
+
+Tree also written onto file "outtree"
+  !---------!
+
+Data set # 13:
+   .
+.Adding species:
+.   1. FlyTw     
+.   2. HumanTw1  .
+.   3. HumanTw2  
+.   4. MouseTw1  .
+.   5. MouseTw2  
+
+
+Doing global rearrangements on all trees tied for best   .
+  !---------!.
+   ..............
+.   .....
+....
+.
+Collapsing best trees
+
+Collapsing best trees
+   .   .
+
+
+Output written to file "outfile"
+
+
+Tree also written onto file "outtree"Output written to file "outfile"
+
+
+Data set # 14:
+
+
+Adding species:Tree also written onto file "outtree"
+   1. FlyTw     
+
+   2. MouseTw1  
+
+   3. HumanTw2  Data set # 94:
+
+   4. HumanTw1  
+   5. MouseTw2  
+
+Adding species:
+
+Doing global rearrangements on all trees tied for best
+   1. HumanTw1    !---------!
+
+   ....   2. HumanTw2  ..
+...   3. MouseTw2  
+   .
+....   4. MouseTw1  ..
+..
+   5. FlyTw     
+Collapsing best trees
+
+   .
+
+
+Output written to file "outfile"
+Doing global rearrangements on all trees tied for best
+
+Tree also written onto file "outtree"
+  !---------!
+
+Data set # 15:
+   .
+.Adding species:
+.   1. HumanTw1  
+.   2. MouseTw1  .
+.   3. MouseTw2  
+.   4. FlyTw     .
+.   5. HumanTw2  
+
+
+Doing global rearrangements on all trees tied for best   .
+  !---------!.
+   ..............
+.   .....
+....
+.
+Collapsing best trees
+
+Collapsing best trees
+   .   .
+
+
+Output written to file "outfile"
+
+
+Tree also written onto file "outtree"Output written to file "outfile"
+
+
+Data set # 16:
+
+
+Adding species:Tree also written onto file "outtree"
+   1. MouseTw1  
+
+   2. HumanTw2  
+
+   3. MouseTw2  Data set # 95:
+
+   4. HumanTw1  
+   5. FlyTw     
+
+Adding species:
+
+Doing global rearrangements on all trees tied for best
+   1. FlyTw       !---------!
+
+   ....   2. HumanTw1  ..
+...   3. MouseTw2  
+   .
+....   4. HumanTw2  ..
+..
+   5. MouseTw1  
+Collapsing best trees
+
+   .
+
+
+Output written to file "outfile"
+Doing global rearrangements on all trees tied for best
+
+Tree also written onto file "outtree"
+  !---------!
+
+Data set # 17:
+   .
+.Adding species:
+.   1. HumanTw1  
+.   2. FlyTw     .
+.   3. MouseTw2  
+.   4. MouseTw1  .
+.   5. HumanTw2  
+
+
+Doing global rearrangements on all trees tied for best   .
+  !---------!.
+   ..............
+.   .....
+....
+.
+Collapsing best trees
+
+Collapsing best trees
+   .   .
+
+
+Output written to file "outfile"
+
+
+Tree also written onto file "outtree"Output written to file "outfile"
+
+
+Data set # 18:
+
+
+Adding species:Tree also written onto file "outtree"
+   1. MouseTw2  
+
+   2. HumanTw2  
+
+   3. HumanTw1  Data set # 96:
+
+   4. MouseTw1  
+   5. FlyTw     
+
+Adding species:
+
+Doing global rearrangements on all trees tied for best
+   1. HumanTw1    !---------!
+
+   ....   2. MouseTw2  ..
+...   3. MouseTw1  
+   .
+....   4. FlyTw     ..
+..
+   5. HumanTw2  
+Collapsing best trees
+
+   .
+
+
+Output written to file "outfile"
+Doing global rearrangements on all trees tied for best
+
+Tree also written onto file "outtree"
+  !---------!
+
+Data set # 19:
+   .
+.Adding species:
+.   1. MouseTw1  
+.   2. FlyTw     .
+.   3. MouseTw2  
+.   4. HumanTw2  .
+.   5. HumanTw1  
+
+
+Doing global rearrangements on all trees tied for best   .
+  !---------!.
+   ..............
+.   .....
+....
+.
+Collapsing best trees
+
+Collapsing best trees
+   .   .
+
+
+Output written to file "outfile"
+
+
+Tree also written onto file "outtree"Output written to file "outfile"
+
+
+Data set # 20:
+
+
+Adding species:Tree also written onto file "outtree"
+   1. MouseTw1  
+
+   2. FlyTw     
+
+   3. MouseTw2  Data set # 97:
+
+   4. HumanTw1  
+   5. HumanTw2  
+
+Adding species:
+
+Doing global rearrangements on all trees tied for best
+   1. MouseTw1    !---------!
+
+   ....   2. FlyTw     ..
+...   3. HumanTw2  
+   .
+....   4. HumanTw1  ..
+..
+   5. MouseTw2  
+Collapsing best trees
+
+   .
+
+
+Output written to file "outfile"
+Doing global rearrangements on all trees tied for best
+
+Tree also written onto file "outtree"
+  !---------!
+
+Data set # 21:
+   .
+.Adding species:
+.   1. HumanTw1  
+.   2. MouseTw1  .
+.   3. FlyTw     
+.   4. MouseTw2  .
+.   5. HumanTw2  
+
+
+Doing global rearrangements on all trees tied for best   .
+  !---------!.
+   ..............
+.   .....
+....
+.
+Collapsing best trees
+
+Collapsing best trees
+   .   .   .
+
+
+Output written to file "outfile"
+
+
+Output written to file "outfile"Tree also written onto file "outtree"
+
+
+Data set # 23:
+
+
+Tree also written onto file "outtree"Adding species:
+
+   1. MouseTw2  
+   2. HumanTw1  
+
+Data set # 98:   3. HumanTw2  
+
+   4. MouseTw1  
+
+   5. FlyTw     
+Adding species:
+
+Doing global rearrangements on all trees tied for best   1. HumanTw2  
+  !---------!
+
+   ...   2. MouseTw1  ..
+....   3. FlyTw     
+
+   ....   4. HumanTw1  ..
+...
+   5. MouseTw2  
+
+Collapsing best trees
+   .
+
+
+Output written to file "outfile"Doing global rearrangements on all trees tied for best
+
+
+Tree also written onto file "outtree"  !---------!
+
+
+Data set # 24:   .
+.
+Adding species:.
+   1. MouseTw2  .
+.   2. MouseTw1  
+.   3. HumanTw1  .
+.   4. HumanTw2  
+.   5. FlyTw     
+
+
+   .Doing global rearrangements on all trees tied for best
+.  !---------!
+.   ..............
+   ....
+....
+..Collapsing best trees
+
+
+
+   .   .
+
+
+Output written to file "outfile"
+
+
+Tree also written onto file "outtree"Output written to file "outfile"
+
+
+Data set # 25:
+
+
+Adding species:Tree also written onto file "outtree"
+   1. MouseTw2  
+
+   2. HumanTw2  
+
+   3. HumanTw1  Data set # 99:
+
+   4. MouseTw1  
+   5. FlyTw     
+
+Adding species:
+
+Doing global rearrangements on all trees tied for best
+   1. HumanTw1    !---------!
+
+   ....   2. HumanTw2  ..
+...   3. MouseTw1  
+   .
+....   4. FlyTw     ..
+..
+   5. MouseTw2  
+Collapsing best trees
+
+   .
+
+
+Output written to file "outfile"
+Doing global rearrangements on all trees tied for best
+
+Tree also written onto file "outtree"
+  !---------!
+
+Data set # 26:
+   .
+.Adding species:
+.   1. MouseTw2  
+.   2. MouseTw1  .
+.   3. HumanTw1  
+.   4. FlyTw     .
+.   5. HumanTw2  
+
+
+Doing global rearrangements on all trees tied for best   .
+  !---------!.
+   ...........
+.
+.Output written to file "outfile"
+.
+
+Tree also written onto file "outtree"
+
+
+Data set # 22:
+Collapsing best trees
+
+Adding species:
+   .   1. FlyTw     
+   2. HumanTw2  
+
+   3. HumanTw1  
+
+   4. MouseTw2  Output written to file "outfile"
+
+   5. MouseTw1  
+
+
+Doing global rearrangements on all trees tied for bestTree also written onto file "outtree"
+  !---------!
+
+   ...
+..Data set # 100:..
+..
+
+   ..Adding species:..
+..   1. HumanTw2  ..
+.
+
+   2. MouseTw1  Collapsing best trees
+
+Collapsing best trees..   3. FlyTw     
+   .
+....   4. HumanTw1  ..
+..
+   5. MouseTw2  
+Collapsing best trees
+
+   .
+
+
+Output written to file "outfile"
+Doing global rearrangements on all trees tied for best
+
+Tree also written onto file "outtree"
+  !---------!
+
+Data set # 27:
+   .
+.Adding species:
+.   1. HumanTw2  
+.   2. HumanTw1  .
+.   3. FlyTw     
+.   4. MouseTw1  .
+.   5. MouseTw2  
+
+
+Doing global rearrangements on all trees tied for best   .
+  !---------!.
+   ..............
+.   .....
+....
+.
+Collapsing best trees
+
+Collapsing best trees
+   .   .
+
+
+Output written to file "outfile"
+
+
+Tree also written onto file "outtree"Output written to file "outfile"
+
+
+Data set # 28:
+
+
+Adding species:Tree also written onto file "outtree"
+   1. HumanTw1  
+
+   2. MouseTw2  
+
+   3. FlyTw     Done.
+
+   4. HumanTw2  
+   5. MouseTw1  
+
+
+[2J[HDoing global rearrangements on all trees tied for best
+
+  !---------!
+[2J[H   ..
+..Consensus tree program, version 3.69..
+...
+
+   .Settings for this run:..
+.. C         Consensus type (MRe, strict, MR, Ml):  Majority rule (extended)..
+.. O                                Outgroup root:  No, use as outgroup species  1
+
+
+Collapsing best trees R                Trees to be treated as Rooted:  No
+   .
+
+ T           Terminal type (IBM PC, ANSI, none):  ANSI
+
+Output written to file "outfile"
+ 1                Print out the sets of species:  Yes
+
+Tree also written onto file "outtree"
+ 2         Print indications of progress of run:  Yes
+
+Data set # 29:
+ 3                               Print out tree:  Yes
+
+Adding species:
+ 4               Write out trees onto tree file:  Yes   1. HumanTw2  
+
+   2. HumanTw1  
+
+   3. FlyTw     
+Are these settings correct? (type Y or the letter for one to change)   4. MouseTw2  
+
+   5. MouseTw1  
+
+
+Doing global rearrangements on all trees tied for bestConsensus tree written to file "outtree"
+  !---------!
+
+   ...
+..Output written to file "outfile"..
+..
+
+   ..Done...
+....
+.
+
+$ convert plotfile tree.pngCollapsing best trees
+
+   .
+$ cd ..
+Output written to file "outfile"
+
+
+Tree also written onto file "outtree"$ git config user.email "brettbj@gmail.com"
+
+
+Data set # 30:
+$ git config user.name "Brett Beaulieu-Jones"
+Adding species:
+
+   1. HumanTw1  
+$ git config --global push.default simple   2. MouseTw1  
+
+   3. MouseTw2  
+$ git remote set-url origin https://github.com/greenelab/continuous_analysis_phylo.git   4. FlyTw     
+
+   5. HumanTw2  
+$ git checkout -b master
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+Switched to a new branch 'master'   ..
+....M	data/intree..
+.M	data/mafft.seq
+   .
+..M	data/outfile..
+..M	data/outtree..
+
+M	data/plotfile
+Collapsing best trees
+
+   .M	data/tree.png
+
+
+M	data/twist-boot.alnOutput written to file "outfile"
+
+
+M	data/twist-boot.outTree also written onto file "outtree"
+
+
+M	data/twist.alnData set # 31:
+
+
+M	data/twist.newickAdding species:
+
+   1. HumanTw2  
+M	data/twist.tree   2. MouseTw1  
+
+   3. HumanTw1  
+$ git add *   4. FlyTw     
+
+   5. MouseTw2  
+$ git commit -a -m "Drone Build [skip ci] [ci skip]"
+
+Doing global rearrangements on all trees tied for best
+  !---------![master 518fc9c] Drone Build [skip ci] [ci skip]
+   .
+.. 11 files changed, 31540 insertions(+), 25403 deletions(-)..
+.. rewrite data/intree (100%)..
+
+ rewrite data/mafft.seq (86%)   ..
+.. rewrite data/tree.png (98%)..
+.. rewrite data/twist-boot.aln (67%).
+
+
+ rewrite data/twist-boot.out (60%)Collapsing best trees
+
+   . rewrite data/twist.aln (80%)
+
+
+Output written to file "outfile" rewrite data/twist.tree (60%)
+
+
+Tree also written onto file "outtree"
+$ git remote set-url origin https://brettbj:b84a2ed9aa01476fec202c914af56a614b5d7aeb@github.com/greenelab/continuous_analysis_phylo.git
+Data set # 32:
+
+
+Adding species:$ git push --set-upstream origin master
+   1. FlyTw     
+
+   2. MouseTw1  
+   3. HumanTw1  
+   4. HumanTw2  
+   5. MouseTw2  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 33:
+
+Adding species:
+   1. HumanTw2  
+   2. MouseTw1  
+   3. HumanTw1  
+   4. FlyTw     
+   5. MouseTw2  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 34:
+
+Adding species:
+   1. MouseTw1  
+   2. FlyTw     
+   3. HumanTw1  
+   4. MouseTw2  
+   5. HumanTw2  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 35:
+
+Adding species:
+   1. FlyTw     
+   2. HumanTw1  
+   3. MouseTw2  
+   4. HumanTw2  
+   5. MouseTw1  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 36:
+
+Adding species:
+   1. FlyTw     
+   2. HumanTw1  
+   3. MouseTw2  
+   4. HumanTw2  
+   5. MouseTw1  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 37:
+
+Adding species:
+   1. MouseTw1  
+   2. MouseTw2  
+   3. FlyTw     
+   4. HumanTw1  
+   5. HumanTw2  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 38:
+
+Adding species:
+   1. FlyTw     
+   2. HumanTw1  
+   3. MouseTw1  
+   4. MouseTw2  
+   5. HumanTw2  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 39:
+
+Adding species:
+   1. MouseTw2  
+   2. FlyTw     
+   3. MouseTw1  
+   4. HumanTw2  
+   5. HumanTw1  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 40:
+
+Adding species:
+   1. MouseTw1  
+   2. HumanTw1  
+   3. MouseTw2  
+   4. FlyTw     
+   5. HumanTw2  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   ...   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 44:
+
+Adding species:
+   1. FlyTw     
+   2. HumanTw1  
+   3. MouseTw2  
+   4. HumanTw2  
+   5. MouseTw1  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 45:
+
+Adding species:
+   1. FlyTw     
+   2. MouseTw2  
+   3. HumanTw1  
+   4. HumanTw2  
+   5. MouseTw1  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .....
+......
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 41:
+
+Adding species:
+   1. MouseTw2  
+.   2. HumanTw2  
+   3. HumanTw1  
+   4. FlyTw     
+   5. MouseTw1  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   ........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 42:
+
+Adding species:
+   1. FlyTw     
+   2. MouseTw1  
+   3. HumanTw1  
+   4. HumanTw2  
+   5. MouseTw2  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 43:
+
+Adding species:
+   1. HumanTw2  
+   2. MouseTw2  
+   3. MouseTw1  
+   4. HumanTw1  
+   5. FlyTw     
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .............
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 46:
+
+Adding species:
+   1. HumanTw1  
+   2. HumanTw2  
+   3. FlyTw     
+   4. MouseTw2  
+   5. MouseTw1  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 47:
+
+Adding species:
+   1. MouseTw1  
+   2. MouseTw2  
+   3. HumanTw2  
+   4. FlyTw     
+   5. HumanTw1  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 48:
+
+Adding species:
+   1. HumanTw1  
+   2. FlyTw     
+   3. MouseTw1  
+   4. MouseTw2  
+   5. HumanTw2  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 49:
+
+Adding species:
+   1. FlyTw     
+   2. HumanTw1  
+   3. MouseTw1  
+   4. HumanTw2  
+   5. MouseTw2  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 50:
+
+Adding species:
+   1. MouseTw1  
+   2. MouseTw2  
+   3. FlyTw     
+   4. HumanTw1  
+   5. HumanTw2  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 51:
+
+Adding species:
+   1. MouseTw2  
+   2. FlyTw     
+   3. HumanTw2  
+   4. HumanTw1  
+   5. MouseTw1  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 52:
+
+Adding species:
+   1. MouseTw2  
+   2. MouseTw1  
+   3. FlyTw     
+   4. HumanTw2  
+   5. HumanTw1  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 53:
+
+Adding species:
+   1. HumanTw1  
+   2. HumanTw2  
+   3. MouseTw1  
+   4. FlyTw     
+   5. MouseTw2  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 54:
+
+Adding species:
+   1. FlyTw     
+   2. HumanTw2  
+   3. MouseTw1  
+   4. MouseTw2  
+   5. HumanTw1  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 55:
+
+Adding species:
+   1. MouseTw2  
+   2. MouseTw1  
+   3. HumanTw2  
+   4. HumanTw1  
+   5. FlyTw     
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 56:
+
+Adding species:
+   1. MouseTw1  
+   2. HumanTw1  
+   3. HumanTw2  
+   4. FlyTw     
+   5. MouseTw2  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 57:
+
+Adding species:
+   1. MouseTw2  
+   2. FlyTw     
+   3. MouseTw1  
+   4. HumanTw1  
+   5. HumanTw2  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 58:
+
+Adding species:
+   1. HumanTw1  
+   2. MouseTw2  
+   3. MouseTw1  
+   4. HumanTw2  
+   5. FlyTw     
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 59:
+
+Adding species:
+   1. MouseTw1  
+   2. MouseTw2  
+   3. HumanTw1  
+   4. FlyTw     
+   5. HumanTw2  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 60:
+
+Adding species:
+   1. FlyTw     
+   2. MouseTw1  
+   3. HumanTw2  
+   4. MouseTw2  
+   5. HumanTw1  
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 64:
+
+Adding species:
+   1. MouseTw2  
+   2. HumanTw2  
+   3. MouseTw1  
+   4. HumanTw1  
+   5. FlyTw     
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 65:
+
+Adding species:
+   1. FlyTw     
+   2. HumanTw1  
+   3. MouseTw1  
+   4. HumanTw2  
+   5. MouseTw2  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   ..
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   ..........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 61:
+
+Adding species:
+   1. FlyTw     
+   2. HumanTw2  
+   3. HumanTw1  
+   4. MouseTw1  
+   5. MouseTw2  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .
+......
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 62:
+
+Adding species:
+   1. HumanTw1  
+   2. HumanTw2  
+   3. MouseTw2  
+   4. MouseTw1  
+   5. FlyTw     
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 63:
+
+Adding species:
+   1. HumanTw2  
+   2. MouseTw1  
+   3. HumanTw1  
+   4. MouseTw2  
+   5. FlyTw     
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 66:
+
+Adding species:
+   1. HumanTw1  
+   2. MouseTw2  
+   3. FlyTw     
+   4. HumanTw2  
+   5. MouseTw1  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 67:
+
+Adding species:
+   1. HumanTw1  
+   2. FlyTw     
+   3. MouseTw1  
+   4. MouseTw2  
+   5. HumanTw2  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 68:
+
+Adding species:
+   1. HumanTw1  
+   2. HumanTw2  
+   3. MouseTw1  
+   4. MouseTw2  
+   5. FlyTw     
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 69:
+
+Adding species:
+   1. FlyTw     
+   2. MouseTw2  
+   3. HumanTw2  
+   4. HumanTw1  
+   5. MouseTw1  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 70:
+
+Adding species:
+   1. FlyTw     
+   2. HumanTw2  
+   3. MouseTw1  
+   4. MouseTw2  
+   5. HumanTw1  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 71:
+
+Adding species:
+   1. MouseTw2  
+   2. MouseTw1  
+   3. HumanTw1  
+   4. HumanTw2  
+   5. FlyTw     
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 72:
+
+Adding species:
+   1. HumanTw1  
+   2. HumanTw2  
+   3. FlyTw     
+   4. MouseTw1  
+   5. MouseTw2  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 73:
+
+Adding species:
+   1. HumanTw1  
+   2. MouseTw1  
+   3. HumanTw2  
+   4. MouseTw2  
+   5. FlyTw     
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 74:
+
+Adding species:
+   1. HumanTw2  
+   2. MouseTw1  
+   3. FlyTw     
+   4. HumanTw1  
+   5. MouseTw2  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 75:
+
+Adding species:
+   1. MouseTw1  
+   2. MouseTw2  
+   3. HumanTw1  
+   4. FlyTw     
+   5. HumanTw2  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 76:
+
+Adding species:
+   1. HumanTw1  
+   2. FlyTw     
+   3. HumanTw2  
+   4. MouseTw1  
+   5. MouseTw2  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 77:
+
+Adding species:
+   1. MouseTw1  
+   2. MouseTw2  
+   3. HumanTw1  
+   4. HumanTw2  
+   5. FlyTw     
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 78:
+
+Adding species:
+   1. FlyTw     
+   2. HumanTw2  
+   3. MouseTw1  
+   4. MouseTw2  
+   5. HumanTw1  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 80:
+
+Adding species:
+   1. HumanTw2  
+   2. HumanTw1  
+   3. MouseTw2  
+   4. MouseTw1  
+   5. FlyTw     
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 81:
+
+Adding species:
+   1. MouseTw2  
+   2. HumanTw2  
+   3. FlyTw     
+   4. HumanTw1  
+   5. MouseTw1  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 82:
+
+Adding species:
+   1. FlyTw     
+   2. MouseTw1  
+   3. HumanTw2  
+   4. HumanTw1  
+   5. MouseTw2  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   .........
+   .........
+
+Collapsing best trees
+   .
+
+Output written to file "outfile"
+
+Tree also written onto file "outtree"
+
+Data set # 83:
+
+Adding species:
+   1. HumanTw1  
+   2. HumanTw2  
+   3. FlyTw     
+   4. MouseTw2  
+   5. MouseTw1  
+
+Doing global rearrangements on all trees tied for best
+  !---------!
+   ..To https://brettbj:b84a2ed9aa01476fec202c914af56a614b5d7aeb@github.com/greenelab/continuous_analysis_phylo.git
+   83a970e..518fc9c  master -> master
+Branch master set up to track remote branch master from origin.
+$ exit 0
