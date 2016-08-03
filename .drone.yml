@@ -21,3 +21,6 @@ script:
 
   - git remote set-url origin https://brettbj:$$git_publish_key@github.com/greenelab/continuous_analysis_phylo.git
   - git push --set-upstream origin master
+  
+branches:
+  - staging
