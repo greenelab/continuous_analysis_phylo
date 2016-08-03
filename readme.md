@@ -24,7 +24,7 @@ The full analysis is described below, here we show two of the useful artifacts g
 
 
 2. Complete "audit" logs of the code run:
-[Logs](https://raw.githubusercontent.com/greenelab/continuous_analysis_phylo/master/references/logs.txt)
+[Logs](https://raw.githubusercontent.com/greenelab/continuous_analysis_phylo/master/references/full_logs.txt)
 
 ![](https://raw.githubusercontent.com/greenelab/continuous_analysis_phylo/master/references/logs.png)
 
