@@ -31,6 +31,9 @@ publish:
     tag: latest
 
     file: Dockerfile
-    
+  
+    docker_host: tcp://0.0.0.0:2375
+    image_name: continuous_analysis_phylo_post
+
 branches:
   - staging
