@@ -29,3 +29,6 @@ publish:
     password: $$dockerhub_pass
     repo: brettbj/continuous_analysis_phylo_post
     tag: latest
+ 
+branches:
+  - staging
