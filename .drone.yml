@@ -21,3 +21,11 @@ script:
 
   - git remote set-url origin https://brettbj:$$git_publish_key@github.com/greenelab/continuous_analysis_phylo.git
   - git push --set-upstream origin master
+
+publish:
+  docker:
+    username: brettbj
+    email: brettbj@gmail.com
+    password: $$dockerhub_pass
+    repo: brettbj/continuous_analysis_phylo_post
+    tag: latest
