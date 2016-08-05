@@ -25,10 +25,12 @@ script:
 publish:
   docker:
     username: brettbj
-    email: brettbj@gmail.com
     password: $$dockerhub_pass
+    email: brettbj@gmail.com
     repo: brettbj/continuous_analysis_phylo_post
     tag: latest
- 
+
+    file: Dockerfile
+    
 branches:
   - staging
